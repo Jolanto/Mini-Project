@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import { SearchOutlined } from '@ant-design/icons';
 import FacultyProjectDetail from './FacultyProjectDetail';
 // import './ApplicantTable.css';
-import '../../table.css';
+import './table.css';
 import { Table, Tag, Input, Space } from 'antd';
 
 // import Card from '../../components/Cardsdemo';
