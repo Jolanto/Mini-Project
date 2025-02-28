@@ -10,25 +10,6 @@ class CommentClass extends Component {
 
   render() {
     return (
-      <div className="comment well">
-        <p className="comment-header">
-          <strong>{this.props.author}</strong>
-        </p>
-        <p className="comment-body">{this.props.body}</p>
-        <div className="comment-footer">
-          <a
-            href="#"
-            className="comment-footer-delete"
-            onClick={this._handleDelete}
-          >
-            Delete comment
-          </a>
-        </div>
-      </div>
-    );
-  }
-  render() {
-    return (
       <div
         className="comment well"
         style={{

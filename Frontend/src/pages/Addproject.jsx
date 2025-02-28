@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Toastify from 'toastify-js';
-import axios from 'axios ';
+import axios from 'axios';
 import { BASEURL } from '../Api';
 import Breadcrumb from '../components/Breadcrumb';
 import { CKEditor } from '@ckeditor/ckeditor5-react';

@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 
 import Toastify from 'toastify-js';
-import axios from 'axios ';
+import axios from 'axios';
 import { BASEURL } from '../Api';
 import Breadcrumb from '../components/Breadcrumb';
 
