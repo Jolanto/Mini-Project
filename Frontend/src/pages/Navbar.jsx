@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import phlogo2 from '../../public/phlogo2.png';
+import phlogo2 from '/phlogo2.png?url';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
