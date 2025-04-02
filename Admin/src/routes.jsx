@@ -24,7 +24,7 @@ const RequirePath = ({ children }) => {
   console.log("currentUser",currentUser);
   console.log("you are not autho");
   return currentUser.userToken == null ? (
-    <Navigate to="/auth/sign-in" />
+    <Navigate to="/auth/sign-up" />
   ) : (
     children
   );

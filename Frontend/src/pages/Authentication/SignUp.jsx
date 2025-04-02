@@ -13,6 +13,9 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa'; // Import eye icons from rea
 
 import 'react-toastify/dist/ReactToastify.css';
 
+
+console.log("API URL:", axios.defaults.baseURL + "/auth/signup");
+
 const SignIn = () => {
   const dispatch = useDispatch();
   const [isLoading, setIsLoading] = useState(false); // State for loading indicator

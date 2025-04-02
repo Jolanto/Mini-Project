@@ -159,6 +159,8 @@ const SignIn = () => {
     }
   };
 
+  console.log("API URL:", axios.defaults.baseURL + "/auth/signup");
+
   useEffect(() => {
     if (loginData?.email) {
       findDataUsingEmail();
