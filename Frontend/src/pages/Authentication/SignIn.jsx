@@ -318,13 +318,13 @@ const SignIn = () => {
                       className="border-grey bg -transparent w-full  rounded-lg border py-3 pl-4 pr-10 outline-none dark:bg-boxdark dark:text-white text-black"
                     >
                       <option selected>Select Current Year</option>
-                      <option name="currentYear" value="SE">
+                      <option name="currentYear" value="FY">
                         FY
                       </option>
-                      <option name="currentYear" value="TE">
+                      <option name="currentYear" value="SY">
                         SY
                       </option>
-                      <option name="currentYear" value="BE">
+                      <option name="currentYear" value="TY">
                         TY
                       </option>
                     </select>
