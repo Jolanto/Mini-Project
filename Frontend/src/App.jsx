@@ -13,6 +13,7 @@ import GroupComment from './pages/GroupComment';
 import GroupSection from './pages/GroupSection';
 import Profile from './pages/Profile';
 import { BrowserRouter as Router } from 'react-router-dom';
+import "flowbite";
 
 // import ProjectList from './pages/Details/ProjectList';
 const Home = lazy(() => import('./pages/Home'));

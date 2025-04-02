@@ -319,13 +319,13 @@ const SignIn = () => {
                     >
                       <option selected>Select Current Year</option>
                       <option name="currentYear" value="SE">
-                        SE
+                        FY
                       </option>
                       <option name="currentYear" value="TE">
-                        TE
+                        SY
                       </option>
                       <option name="currentYear" value="BE">
-                        BE
+                        TY
                       </option>
                     </select>
                     <span className="absolute right-4 top-4">

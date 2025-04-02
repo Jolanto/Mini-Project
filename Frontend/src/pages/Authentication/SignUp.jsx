@@ -434,7 +434,7 @@ const SignIn = () => {
                   </div>
                   <div className="mb-1">
                     <label className="mb-2.5 block text-lg font-medium text-black dark:text-white">
-                      Confrim Password
+                      Confirm Password
                     </label>
                     <div className="relative">
                       <div className="mb-6">

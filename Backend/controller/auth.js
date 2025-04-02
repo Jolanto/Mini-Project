@@ -22,6 +22,12 @@ const signup = async (req, res, next) => {
       phone,
     } = req.body;
 
+    if (!email.endsWith("@hindujacollege.com")) {
+      return res
+        .status(400)
+        .json({ error: "Only Hinduja email addresses are allowed to sign up." });
+    }
+
     const existingStudent = await Student.findOne({ email });
     if (existingStudent) {
       return res
